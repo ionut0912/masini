@@ -14,7 +14,7 @@
 
 /* Variables */
 :root {
-    --main-color: #6A5ACD;
+    --main-color: #00BFFF;
     --text-color: #020102;
     --bg-color: #fff;
 }
@@ -27,7 +27,7 @@ img {
 }
 
 body {
-    color: #d2b48c;
+    color:#fd052f;
 }
 
 .container {
@@ -62,7 +62,7 @@ header {
 .logo {
     font-size: 1.2rem;
     font-weight: 700;
-    color: var(--text-color);
+    color:#98FB98;
 }
 
 .logo span {
@@ -75,7 +75,7 @@ header {
 }
 
 .navbar a {
-    color: #fff;
+    color: #98FB98;
     font-size: 1rem;
     text-transform: uppercase;
     font-weight: 500;
@@ -112,7 +112,7 @@ header {
 }
 
 .home{
-    max-width: 1300px;
+    max-width: 13000px;
     margin: auto;
     width: 100%;
     min-height: 640px;
@@ -138,10 +138,12 @@ header {
     margin:0.5rem 0 1.2rem;
 }
 .btn{
-    padding: 10px 15px;
+    padding: 3px 7px;
     background: var(--main-color);
     color:var(--bg-color);
     font-weight: 400;
+    
+
 }
 .btn:hover{
     background: #fd052f;
@@ -306,4 +308,46 @@ font-size: 1.2rem;
     column-gap: 0.7rem;
     transition: 0.4s;
 }
-    
+.footer{
+    background: var(--text-color);
+    color: #f6f6f6;
+    border-top: 2px solid var(--main-color);
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.footer-container .logo{
+    color: var(--bg-color);
+    margin-bottom: 1rem;
+}
+.footer-container .footer-box{
+    display: flex;
+    flex-direction: column;
+}
+.social{
+    display: flex;
+    align-items: center;
+}
+.social a{
+    font-size: 24px;
+    color: var(--bg-color);
+    margin-right: 1rem;
+}
+.social a:hover{
+    color: var(--main-color);
+}
+.footer-box h3{
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.footer-box a,
+.footer-box p{
+    color: #818181;
+    margin-bottom: 10px;
+}
+.footer-box a:hover{
+    color: var(--main-color);
+}
